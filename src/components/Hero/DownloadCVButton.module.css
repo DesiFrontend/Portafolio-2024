@@ -1,0 +1,36 @@
+.btnDownload {
+    text-decoration: none;
+    border: 2px solid var(--color-secondary);
+    background-color: var(--color-secondary);
+    color: var(--color-text);
+    border-radius: 100px;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 15px 25px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 414px) {
+    .btnDownload {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .btnDownload {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 360px) {
+    .btnDownload {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    .btnDownload {
+        font-size: 20px;
+    }
+}

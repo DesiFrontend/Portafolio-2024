@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Recetario Mágico",
+        "imageSrc": "projects/project1.png",
+        "description": "Blog de recetas que implementa CRUD y base de datos.",
+        "skills": ["React", "Express", "Node","Sass", "MySQL"],
+        "demo": "https://fullstack-proyecto-recetas-blog-cliente.onrender.com/",
+        "source": "https://github.com/DesiFrontend/FullStack-proyecto-Recetas-Blog"
+    },
+    {
+        "title": "Tienda de Dulces Mexicanos",
+        "imageSrc": "projects/project2.png",
+        "description": "Diseño de tienda en línea responsivo.",
+        "skills": ["HTML5", "CSS3", "JavaScript"],
+        "demo": "https://dulce-tradicion-dulces-mexicanos.netlify.app/",
+        "source": "https://github.com/DesiFrontend/Dulce-Tradicion-Tienda-online"
+    },
+    {
+        "title": "App Pequeños Valientes",
+        "imageSrc": "projects/project3.png",
+        "description": "Aplicación que ayuda a los padres a que sus hijos aprendan a combatir sus mayores temores.",
+        "skills": ["UI", "UX", "Figma"],
+        "demo": "https://www.figma.com/proto/fnBbkh6vbLcwrYhcqgg38h/App-Prototipo-Peque%C3%B1os-Valientes?node-id=1-5&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A5",
+        "source": "",
+        "isPdf": true
+    }
+]

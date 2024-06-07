@@ -1,0 +1,208 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 120px;
+  background-color: var(--color-secondary);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  padding: 58px 10%;
+  gap: 20px;
+}
+
+.text h2 {
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.text p {
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.contact {
+  display: flex;
+  width: 20%;
+  justify-content: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  gap: 26px;
+  margin-top: 30px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.img1, .img2, .img3 {
+  width: 40px;
+}
+
+.link a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+  .contact {
+    width: 25%;
+  }
+
+  .text h2 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .contact {
+    width: 25%;
+    margin-left: -4%;
+  }
+
+  .text h2 {
+    font-size: 50px;
+  }
+
+  .text p {
+    font-size: 20px;
+  }
+
+  .link a {
+    font-size: 20px;
+  }
+
+  .img1, .img2, .img3 {
+    width: 35px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    gap: 23px;
+    text-align: center;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact {
+    align-self: center;
+    width: 35%;
+  }
+
+  .links {
+    align-items: flex-start;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    align-self: center;
+    width: 30%;
+    margin-left: 25px;
+  }
+
+  .links {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .links {
+    align-items: flex-start;
+    margin-left: 10%;
+  }
+}
+
+/* Media Queries for smaller screens with min-width */
+@media screen and (min-width: 320px) and (max-width: 359px) {
+  .contact {
+    display: none;
+  }
+
+  .text h2 {
+    font-size: 46px;
+  }
+
+  .text p {
+    font-size: 22px;
+  }
+
+  .img1, .img2, .img3 {
+    width: 32px;
+  }
+
+  .links {
+    align-items: flex-start;
+    margin-left: -6%;
+  }
+
+  .link a {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 374px) {
+  .contact {
+    display: none;
+  }
+
+  .text p {
+    font-size: 28px;
+  }
+
+  .links {
+    align-items: flex-start;
+    margin-left: -5%;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 413px) {
+  .contact {
+    align-self: center;
+    width: 45%;
+    margin-left: 23px;
+  }
+
+  .text p {
+    font-size: 25px;
+  }
+
+  .links {
+    align-items: flex-start;
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 414px) and (max-width: 479px) {
+  .contact {
+    align-self: center;
+    width: 50%;
+    margin-left: 22px;
+  }
+
+  .links {
+    align-items: flex-start;
+    margin-left: 4%;
+  }
+}

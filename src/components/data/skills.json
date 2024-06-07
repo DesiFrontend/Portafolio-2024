@@ -1,0 +1,43 @@
+
+[
+    {
+        "title": "HTML5",
+        "imageSrc": "skills/html.png"
+    },
+    {
+        "title": "CSS3",
+        "imageSrc": "skills/css.png"
+    },
+    {
+        "title": "JavaScript",
+        "imageSrc": "skills/javascript.png"
+    },
+    {
+        "title": "Bootstrap5",
+        "imageSrc": "skills/bootstrap.png"
+    },
+    {
+        "title": "SaSS",
+        "imageSrc": "skills/sass.png"
+    },
+    {
+        "title": "React",
+        "imageSrc": "skills/react.png"
+    },
+    {
+        "title": "Node",
+        "imageSrc": "skills/node.png"
+    },
+    {
+        "title": "MySQL",
+        "imageSrc": "skills/mysql.png"
+    },
+    {
+        "title": "Adobe",
+        "imageSrc": "skills/adobe.png"
+    },
+    {
+        "title": "Figma",
+        "imageSrc": "skills/figma.png"
+    }
+]
